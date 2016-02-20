@@ -1,0 +1,18 @@
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
+	ether 68:5b:35:8a:23:23 
+	nd6 options=1<PERFORMNUD>
+	media: autoselect (none)
+	status: inactive
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether a8:bb:cf:21:8f:86 
+	inet6 fe80::aabb:cfff:fe21:8f86%en1 prefixlen 64 scopeid 0x5 
+	inet 192.168.0.102 netmask 0xffffff00 broadcast 192.168.0.255
+	nd6 options=1<PERFORMNUD>
+	media: autoselect
+	status: active
+en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=60<TSO4,TSO6>
+	ether d2:00:1b:63:00:c0 
+	media: autoselect <full-duplex>
+	status: inactive
