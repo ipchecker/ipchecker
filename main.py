@@ -22,4 +22,4 @@ def main():
 if __name__ == "__main__":
     while(1):
         main()
-        time.sleep(15)
+        time.sleep(600)
