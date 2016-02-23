@@ -2,9 +2,9 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
 	ether 68:5b:35:8a:23:23 
 	inet6 fe80::6a5b:35ff:fe8a:2323%en0 prefixlen 64 scopeid 0x4 
-	inet6 2402:f000:5:8201:6a5b:35ff:fe8a:2323 prefixlen 64 autoconf 
-	inet6 2402:f000:5:8201:f970:ac1:8b3a:2c4c prefixlen 64 autoconf temporary 
 	inet 59.66.130.30 netmask 0xffffff00 broadcast 59.66.130.255
+	inet6 2402:f000:5:8201:6a5b:35ff:fe8a:2323 prefixlen 64 autoconf 
+	inet6 2402:f000:5:8201:9dbf:7e1b:e272:e710 prefixlen 64 autoconf temporary 
 	nd6 options=1<PERFORMNUD>
 	media: autoselect (100baseTX <full-duplex>)
 	status: active
