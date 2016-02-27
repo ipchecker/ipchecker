@@ -4,6 +4,7 @@ import time
 
 def main():
     os.system("rm ifconfig.out")
+    os.system("ifconfig ppp0 | cat >> ifconfig.out")
     os.system("ifconfig en0 | cat >> ifconfig.out")
     os.system("ifconfig en1 | cat >> ifconfig.out")
     os.system("ifconfig en2 | cat >> ifconfig.out")
