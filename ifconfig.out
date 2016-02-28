@@ -1,10 +1,10 @@
-ppp0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1492
-	inet 221.223.102.234 --> 221.223.96.1 netmask 0xffffff00 
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
 	ether 68:5b:35:8a:23:23 
 	inet6 fe80::6a5b:35ff:fe8a:2323%en0 prefixlen 64 scopeid 0x4 
-	inet 169.254.37.199 netmask 0xffff0000 broadcast 169.254.255.255
+	inet6 2402:f000:5:8201:6a5b:35ff:fe8a:2323 prefixlen 64 autoconf 
+	inet6 2402:f000:5:8201:2896:ac30:a219:f4fb prefixlen 64 autoconf temporary 
+	inet 59.66.130.92 netmask 0xffffff00 broadcast 59.66.130.255
 	nd6 options=1<PERFORMNUD>
 	media: autoselect (100baseTX <full-duplex>)
 	status: active
